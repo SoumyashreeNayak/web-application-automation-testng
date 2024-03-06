@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WebApplicationTestSuite">
+	<test parallel="false" name="WebApplicationTest">
+		<parameter name="fileLoc"
+			value="C:\Users\aksh1\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\Web-App-Automation-and-Testing\src\main\resources\images\" />
+		<parameter name="chromeDriverPath"
+			value="A:\SELENIUM\chromedriver.exe" />
+		<parameter name="appURL"
+			value="http://localhost:8080/Web-App-Automation-and-Testing" />
+		<classes>
+			<class name="app.test.RegisterTest" />
+			<class name="app.test.LoginTest" />
+			<class name="app.test.SearchAndCartTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

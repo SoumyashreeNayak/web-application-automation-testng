@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-WebApplicationTestSuite" class="navigator-link">
+              <span class="suite-name border-passed">WebApplicationTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-WebApplicationTestSuite" class="navigator-link ">
+                    <span>C:\Users\aksh1\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\Web-App-Automation-and-Testing\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-WebApplicationTestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-WebApplicationTestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-WebApplicationTestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-WebApplicationTestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-WebApplicationTestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-WebApplicationTestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-WebApplicationTestSuite" class="hide-methods passed suite-WebApplicationTestSuite"> (hide)</a> <!-- hide-methods passed suite-WebApplicationTestSuite -->
+                      <a href="#" panel-name="suite-WebApplicationTestSuite" class="show-methods passed suite-WebApplicationTestSuite"> (show)</a> <!-- show-methods passed suite-WebApplicationTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-WebApplicationTestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebApplicationTestSuite" title="app.test.LoginTest" class="method navigator-link" hash-for-method="testLoginFailure(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)">testLoginFailure(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebApplicationTestSuite" title="app.test.LoginTest" class="method navigator-link" hash-for-method="testLoginSuccess(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)">testLoginSuccess(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebApplicationTestSuite" title="app.test.RegisterTest" class="method navigator-link" hash-for-method="testRegisterFailure(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)">testRegisterFailure(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebApplicationTestSuite" title="app.test.RegisterTest" class="method navigator-link" hash-for-method="testRegisterSuccess(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)">testRegisterSuccess(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebApplicationTestSuite" title="app.test.SearchAndCartTest" class="method navigator-link" hash-for-method="testSearchAndCart(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)">testSearchAndCart(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-WebApplicationTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-WebApplicationTestSuite" class="panel WebApplicationTestSuite">
+          <div class="suite-WebApplicationTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">app.test.SearchAndCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchAndCart(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)">
+                  </a> <!-- testSearchAndCart(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...) -->
+                  <span class="method-name">testSearchAndCart</span>
+                  <span class="parameters">(http://localhost:8080/Web-App-Automation-and-Testing,C:\Users\aksh1\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\Web-App-Automation-and-Testing\src\main\resources\images\)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebApplicationTestSuite-class-passed -->
+          <div class="suite-WebApplicationTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">app.test.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterFailure(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)">
+                  </a> <!-- testRegisterFailure(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...) -->
+                  <span class="method-name">testRegisterFailure</span>
+                  <span class="parameters">(http://localhost:8080/Web-App-Automation-and-Testing,C:\Users\aksh1\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\Web-App-Automation-and-Testing\src\main\resources\images\)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterSuccess(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)">
+                  </a> <!-- testRegisterSuccess(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...) -->
+                  <span class="method-name">testRegisterSuccess</span>
+                  <span class="parameters">(http://localhost:8080/Web-App-Automation-and-Testing,C:\Users\aksh1\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\Web-App-Automation-and-Testing\src\main\resources\images\)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebApplicationTestSuite-class-passed -->
+          <div class="suite-WebApplicationTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">app.test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginFailure(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)">
+                  </a> <!-- testLoginFailure(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...) -->
+                  <span class="method-name">testLoginFailure</span>
+                  <span class="parameters">(http://localhost:8080/Web-App-Automation-and-Testing,C:\Users\aksh1\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\Web-App-Automation-and-Testing\src\main\resources\images\)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginSuccess(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)">
+                  </a> <!-- testLoginSuccess(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...) -->
+                  <span class="method-name">testLoginSuccess</span>
+                  <span class="parameters">(http://localhost:8080/Web-App-Automation-and-Testing,C:\Users\aksh1\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\Web-App-Automation-and-Testing\src\main\resources\images\)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebApplicationTestSuite-class-passed -->
+        </div> <!-- panel WebApplicationTestSuite -->
+        <div panel-name="test-xml-WebApplicationTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\aksh1\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\Web-App-Automation-and-Testing\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;WebApplicationTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;WebApplicationTest&quot;&gt;
+    &lt;parameter name=&quot;appURL&quot; value=&quot;http://localhost:8080/Web-App-Automation-and-Testing&quot;/&gt;
+    &lt;parameter name=&quot;fileLoc&quot; value=&quot;C:\Users\aksh1\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\Web-App-Automation-and-Testing\src\main\resources\images\&quot;/&gt;
+    &lt;parameter name=&quot;chromeDriverPath&quot; value=&quot;A:\SELENIUM\chromedriver.exe&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;app.test.RegisterTest&quot;/&gt;
+      &lt;class name=&quot;app.test.LoginTest&quot;/&gt;
+      &lt;class name=&quot;app.test.SearchAndCartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WebApplicationTest --&gt;
+&lt;/suite&gt; &lt;!-- WebApplicationTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-WebApplicationTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for WebApplicationTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">WebApplicationTest (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-WebApplicationTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for WebApplicationTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-WebApplicationTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for WebApplicationTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_WebApplicationTestSuite');
+function tableData_WebApplicationTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testRegisterFailure')
+data.setCell(0, 2, 'app.test.RegisterTest')
+data.setCell(0, 3, 17281);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSearchAndCart')
+data.setCell(1, 2, 'app.test.SearchAndCartTest')
+data.setCell(1, 3, 13227);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testRegisterSuccess')
+data.setCell(2, 2, 'app.test.RegisterTest')
+data.setCell(2, 3, 10783);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testLoginFailure')
+data.setCell(3, 2, 'app.test.LoginTest')
+data.setCell(3, 3, 6999);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLoginSuccess')
+data.setCell(4, 2, 'app.test.LoginTest')
+data.setCell(4, 3, 4140);
+window.suiteTableData['WebApplicationTestSuite']= { tableData: data, tableDiv: 'times-div-WebApplicationTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 52 seconds</span>
+              <div id="times-div-WebApplicationTestSuite">
+              </div> <!-- times-div-WebApplicationTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-WebApplicationTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for WebApplicationTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testLoginSuccess(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">inside testLoginSuccess</span>
+                <span class="reporter-method-output">Went to home Page</span>
+                <span class="reporter-method-output">Went to Login Page</span>
+                <span class="reporter-method-output">Sending correct credentials</span>
+                <span class="reporter-method-output">Went to Dashboard</span>
+                <span class="reporter-method-output">Logging out</span>
+                <span class="reporter-method-output">Went back to Home</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testRegisterFailure(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">inside testRegisterFailure</span>
+                <span class="reporter-method-output">Went to home Page</span>
+                <span class="reporter-method-output">Went to Register Page</span>
+                <span class="reporter-method-output">Providing existing email</span>
+                <span class="reporter-method-output">Registration not done</span>
+                <span class="reporter-method-output">Remainining on Register Page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testLoginFailure(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">inside testLoginFailure</span>
+                <span class="reporter-method-output">Went to home Page</span>
+                <span class="reporter-method-output">Went to Login Page</span>
+                <span class="reporter-method-output">Sending incorrect credentials</span>
+                <span class="reporter-method-output">Remaining back on login page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testRegisterSuccess(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">inside testRegisterSuccess</span>
+                <span class="reporter-method-output">Went to home Page</span>
+                <span class="reporter-method-output">Providing new email</span>
+                <span class="reporter-method-output">Went to home page</span>
+                <span class="reporter-method-output">New User Registration - DONE</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSearchAndCart(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">inside testSearchAndCart</span>
+                <span class="reporter-method-output">Went to home Page</span>
+                <span class="reporter-method-output">Went to Login Page</span>
+                <span class="reporter-method-output">Sending correct credentials</span>
+                <span class="reporter-method-output">Went to Dashboard</span>
+                <span class="reporter-method-output">Sending a part of item name to get item names that contain this part</span>
+                <span class="reporter-method-output">Displaying the items which contain the part - note in them</span>
+                <span class="reporter-method-output">Adding Spiral Notebook to cart</span>
+                <span class="reporter-method-output">Removing Spiral Notebook from cart</span>
+                <span class="reporter-method-output">Logging out</span>
+                <span class="reporter-method-output">Went back to Home</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-WebApplicationTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-WebApplicationTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">app.test.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(A:\SELENIUM\chromedriver.exe)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testRegisterFailure(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)</span>
+                <span class="method-start">56340 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegisterSuccess(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)</span>
+                <span class="method-start">73633 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">84420 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">app.test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(A:\SELENIUM\chromedriver.exe)</span>
+                <span class="method-start">96204 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLoginFailure(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)</span>
+                <span class="method-start">99780 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginSuccess(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)</span>
+                <span class="method-start">106783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">110926 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">app.test.SearchAndCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(A:\SELENIUM\chromedriver.exe)</span>
+                <span class="method-start">111092 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSearchAndCart(http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool...)</span>
+                <span class="method-start">113697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">126925 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

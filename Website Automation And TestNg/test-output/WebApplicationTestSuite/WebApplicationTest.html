@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  WebApplicationTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>WebApplicationTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 21 11:18:34 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>127 seconds (127091 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='app.test.LoginTest.testLoginSuccess()'><b>testLoginSuccess</b><br>Test class: app.test.LoginTest<br>Parameters: http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\Web-App-Automation-and-Testing\src\main\resources\images\<br/>
+<a href="#Output-1147394515" onClick='toggleBox("Output-1147394515", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1147394515" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1147394515">
+inside testLoginSuccess<br/>
+Went to home Page<br/>
+Went to Login Page<br/>
+Sending correct credentials<br/>
+Went to Dashboard<br/>
+Logging out<br/>
+Went back to Home<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>app.test.LoginTest@53fe15ff</td></tr>
+<tr>
+<td title='app.test.RegisterTest.testRegisterFailure()'><b>testRegisterFailure</b><br>Test class: app.test.RegisterTest<br>Parameters: http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\Web-App-Automation-and-Testing\src\main\resources\images\<br/>
+<a href="#Output-28145535" onClick='toggleBox("Output-28145535", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-28145535" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-28145535">
+inside testRegisterFailure<br/>
+Went to home Page<br/>
+Went to Register Page<br/>
+Providing existing email<br/>
+Registration not done<br/>
+Remainining on Register Page<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>app.test.RegisterTest@1ed4ae0f</td></tr>
+<tr>
+<td title='app.test.LoginTest.testLoginFailure()'><b>testLoginFailure</b><br>Test class: app.test.LoginTest<br>Parameters: http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\Web-App-Automation-and-Testing\src\main\resources\images\<br/>
+<a href="#Output-1537912396" onClick='toggleBox("Output-1537912396", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1537912396" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1537912396">
+inside testLoginFailure<br/>
+Went to home Page<br/>
+Went to Login Page<br/>
+Sending incorrect credentials<br/>
+Remaining back on login page<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>app.test.LoginTest@53fe15ff</td></tr>
+<tr>
+<td title='app.test.RegisterTest.testRegisterSuccess()'><b>testRegisterSuccess</b><br>Test class: app.test.RegisterTest<br>Parameters: http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\Web-App-Automation-and-Testing\src\main\resources\images\<br/>
+<a href="#Output-564086167" onClick='toggleBox("Output-564086167", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-564086167" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-564086167">
+inside testRegisterSuccess<br/>
+Went to home Page<br/>
+Providing new email<br/>
+Went to home page<br/>
+New User Registration - DONE<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>app.test.RegisterTest@1ed4ae0f</td></tr>
+<tr>
+<td title='app.test.SearchAndCartTest.testSearchAndCart()'><b>testSearchAndCart</b><br>Test class: app.test.SearchAndCartTest<br>Parameters: http://localhost:8080/Web-App-Automation-and-Testing, C:\Users\aksh1\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\Web-App-Automation-and-Testing\src\main\resources\images\<br/>
+<a href="#Output-739703515" onClick='toggleBox("Output-739703515", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-739703515" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-739703515">
+inside testSearchAndCart<br/>
+Went to home Page<br/>
+Went to Login Page<br/>
+Sending correct credentials<br/>
+Went to Dashboard<br/>
+Sending a part of item name to get item names that contain this part<br/>
+Displaying the items which contain the part - note in them<br/>
+Adding Spiral Notebook to cart<br/>
+Removing Spiral Notebook from cart<br/>
+Logging out<br/>
+Went back to Home<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>app.test.SearchAndCartTest@449a4f23</td></tr>
+</table><p>
+</body>
+</html>
